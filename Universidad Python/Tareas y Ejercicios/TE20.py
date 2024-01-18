@@ -4,5 +4,4 @@ numerosmenores = []
 for n in tupla:
     if n < 5:
         numerosmenores.append(n)
-
 print(numerosmenores)
