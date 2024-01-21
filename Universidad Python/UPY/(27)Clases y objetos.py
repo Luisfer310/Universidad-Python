@@ -1,13 +1,15 @@
+# Definicion de clase
 class Persona:
     pass
 
-
+# Podremos ver de que tipo es nuestra clase.
 print(type(Persona))
 
 class Nombres:
     pass
 
 
+# Agregamos objetos
 Victor = Nombres()
 Luis = Nombres()
 
@@ -26,3 +28,7 @@ class Persona2:
 persona = Persona2('Luis', 23)
 print(persona.nombre)
 print(persona.edad)
+
+# Modificar valor de atributos
+Persona2.nombre = 'Fernando'
+print(Persona2.nombre)
