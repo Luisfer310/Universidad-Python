@@ -2,6 +2,7 @@
 class Persona:
     pass
 
+
 # Podremos ver de que tipo es nuestra clase.
 print(type(Persona))
 
